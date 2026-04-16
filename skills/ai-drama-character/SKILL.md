@@ -256,10 +256,11 @@ message(
   → 如果没有 → 新生成
 ```
 
-**服装参考图prompt规范（防止生成真人照片）：**
+**服装参考图prompt规范（必须是俯视平铺）：**
+服装参考图的本质要求是：**俯视平铺**——所有衣物/鞋/配件平放在地面/台面上，从正上方俯拍，完整展示每件物品，不出现任何人形、模特、真人。
 ```
-❌ 错误：prompt里出现"真人穿戴"、"模特穿着"、"真人"、"model"、"figure"等词
-✅ 正确：只描述物品本身，"平铺"、"flat lay"、"all items fully visible"
+❌ 错误prompt关键词（会导致生成真人穿戴照片）："真人穿戴"、"模特穿着"、"真人"、"model"、"figure"、"穿戴效果"、"穿着"、"on person"、"modeling"
+✅ 正确prompt关键词（俯视平铺）："俯视平铺"、"top-down flat lay"、"items laid flat"、"all items fully visible from above"、"pure white background from overhead shot"
 ```
 
 ---
