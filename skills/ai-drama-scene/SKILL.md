@@ -34,6 +34,11 @@ wide establishing panoramic shot, NO HUMANS NO CHARACTERS, no people,
 empty scene, detailed environment, cinematic lighting, high detail
 ```
 
+**色调示例**（示例色调方案，供风格锁定参考）：
+- 都市情感剧示例：`低饱和灰绿色调`、`莫兰迪灰蓝色调`、`莫兰迪深灰炭色调`、`莫兰迪暖灰棕色调`（均属低饱和灰调系）
+- 色调描述应具体（如"灰绿色调"而非"冷色调"），便于AI理解
+- 具体色调由编剧阶段产出的"风格锁定"决定，本skill只提供参考方向
+
 ### 阶段B：多角度场景图（图生图，基于大场景全景图）
 
 ```
